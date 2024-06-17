@@ -149,3 +149,9 @@ textarea {vertical-align: top;overflow: auto;
 .block{
     background-color: #31363F;
 }
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+}

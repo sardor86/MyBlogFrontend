@@ -6,6 +6,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css">
 </head>
 <body>
 <header>
@@ -38,8 +41,8 @@
             </div>
         </div>
         <div class="about_block block">
-            <div class="about-container">
-                <div class="about-title">
+            <div class="about-container container">
+                <div class="about-title title">
                     <h2>ABOUT ME</h2>
                 </div>
                 <div class="about-text">
@@ -61,13 +64,127 @@
                 </div>
             </div>
         </div>
+        <div class="portfolio-block block">
+            <div class="portfolio-container">
+                <div class="portfolio-title title">
+                    <h2>PORTFOLIO</h2>
+                </div>
+                <div class="portfolio-carousel display-flex" id="slick" data-slick='{}'>
+                    <div class="portfolio-item">
+                        <img class="portfolio-img" src="image/cover-background.jpg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-item">
+                        <img class="portfolio-img" src="image/cover-background.jpg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-item">
+                        <img class="portfolio-img" src="image/cover-background.jpg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-item">
+                        <img class="portfolio-img" src="image/cover-background.jpg" alt="portfolio">
+                    </div>
+                    <div class="portfolio-item">
+                        <img class="portfolio-img" src="image/cover-background.jpg" alt="portfolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-block block">
+            <div class="blog-container container">
+                <div class="portfolio-title title">
+                    <h2>BLOG</h2>
+                </div>
+                <div class="blog-list">
+                    <div class="blog-group display-flex">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-group display-flex">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="image/cover-background.jpg" alt="blog">
+                            </div>
+                            <div class="blog-title">
+                                <h3>Something</h3>
+                            </div>
+                            <div class="blog-subtitle">
+                                Something something something something
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 <footer>
-
+    <div class="footer-block block">
+        <ul class="footer-links display-flex">
+            <li class="footer-link"><a href="#">Home</a></li>
+            <li class="footer-link"><a href="#">About me</a></li>
+            <li class="footer-link"><a href="#">Portfolio</a></li>
+            <li class="footer-link"><a href="#">Blogs</a></li>
+        </ul>
+    </div>
 </footer>
 
 <script src="js/index.js"></script>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="slick/slick/slick.min.js"></script>
+
+<script src="js/slider.js"></script>
 </body>
 </html>

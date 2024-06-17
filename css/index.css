@@ -60,14 +60,7 @@ header{
     font-size: 20px;
 }
 
-
-.about-container{
-    width: 50%;
-    margin: 0 auto;
-    padding: 100px;
-}
-
-.about-title{
+.title{
     font-size: 60px;
     width: max-content;
     margin: 20px auto;
@@ -75,4 +68,50 @@ header{
 
 .about-text p{
     font-size: 18px;
+}
+
+
+.portfolio-container{
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+}
+
+.portfolio-item{
+    padding: 0 60px;
+}
+
+.portfolio-item img{
+    width: 1000px;
+}
+
+.blog-container{
+    width: 80%;
+}
+
+.blog{
+    margin: 50px;
+}
+
+.blog-title{
+    font-size: 30px;
+}
+
+.blog-subtitle{
+    font-size: 15px;
+}
+
+.footer-block{
+    background-color: #222831;
+    height: 150px;
+}
+
+.footer-links{
+    width: max-content;
+    margin: 0 auto;
+    padding: 63px 0;
+}
+
+.footer-link{
+    font-size: 20px;
+    margin: 0 20px;
 }
